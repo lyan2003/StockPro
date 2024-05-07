@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFEAE3;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stockpro3.Person">
+   <children>
+      <Label layoutX="41.0" layoutY="39.0" text="Register as :" textFill="#121481">
+         <font>
+            <Font name="Script MT Bold" size="64.0" />
+         </font>
+      </Label>
+      <Button layoutX="184.0" layoutY="158.0" mnemonicParsing="false" onAction="#clickOnAdmin" prefHeight="66.0" prefWidth="267.0" style="-fx-background-color: #121481;" text="Admin" textFill="#efd7cf">
+         <font>
+            <Font name="Perpetua Titling MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="184.0" layoutY="248.0" mnemonicParsing="false" onAction="#clickOnUser" prefHeight="66.0" prefWidth="274.0" style="-fx-background-color: #121481;" text="User" textFill="#efdecf">
+         <font>
+            <Font name="Perpetua Titling MT Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
